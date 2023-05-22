@@ -1,0 +1,40 @@
+notify:
+  token: ""
+  mini: true
+delay: 150
+profile:
+- browser: chrome
+  name: []
+  userAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+    like Gecko) Chrome/113.0.0.0 Safari/537.36
+config:
+- label: GSI
+  act_id: e202102251931481
+  api:
+    endpoint: https://sg-hk4e-api.hoyolab.com
+    domain: https://hoyolab.com
+    award: /event/sol/home
+    info: /event/sol/info
+    sign: /event/sol/sign
+  lang: en-us
+  referer: https://act.hoyolab.com/ys/event/signin-sea-v3/index.html
+# - label: HRS
+#   act_id: e202303301540311
+#   api:
+#     endpoint: https://sg-public-api.hoyolab.com
+#     domain: https://hoyolab.com
+#     award: /event/luna/os/home
+#     info: /event/luna/os/info
+#     sign: /event/luna/os/sign
+#   lang: en-us
+#   referer: https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html
+# - label: HI3
+#   act_id: e202110291205111
+#   api:
+#     endpoint: https://sg-public-api.hoyolab.com
+#     domain: https://hoyolab.com
+#     award: /event/mani/home
+#     info: /event/mani/info
+#     sign: /event/mani/sign
+#   lang: en-us
+#   referer: https://act.hoyolab.com/bbs/event/signin-bh3/index.html
